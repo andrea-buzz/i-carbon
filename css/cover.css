@@ -50,7 +50,7 @@ body {
 .text-left {text-align: left;}
 .text-right {text-align: right;}
 .pull-right { margin-left: auto;}
-
+.nowrap {white-space: nowrap;}
 
 .header-1 {padding: 15px 0 15px 0; border-bottom: 1px solid #fff; }
 .prefooter {min-height: 40px;}
