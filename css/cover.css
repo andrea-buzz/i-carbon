@@ -174,15 +174,14 @@ a.cover-heading:hover {text-decoration: underline;}
     .prefoter {min-height: 300px;}
 }
 
-
-
-
 @media (min-width: 992px) {
     /* flexbox */
     .flex-container { display: flex; flex-flow: row; align-items: center;  }
     .space-between { justify-content: space-between; }
     .flex-item {}
-
+    .header-1 {min-height: 100px;}
+    .content{min-height: 160px;}
+    .prefoter {min-height: 300px;}
 }
 
 @media (max-width: 1199px) {
@@ -192,9 +191,8 @@ a.cover-heading:hover {text-decoration: underline;}
 
 @media (max-width: 991px){
     body {
-        background-size: auto 100%;
-        background-position: -200vw center;
-        background-position: right center;
+        background-size: cover;
+        background-position: right bottom;
     }
     img.logo {max-height: 50px; width: auto;}
 }
